@@ -1,0 +1,19 @@
+name: crud_planetas_flutter
+description: Um aplicativo Flutter para gerenciar informações de planetas usando SQLite.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: any
+  path: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
